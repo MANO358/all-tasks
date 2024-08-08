@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            text-align: center;
+        }
+        body{
+            background-image: url('./images/b3.png');
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1><b><u>SIGN UP FORM</u></b></h1>
+        <label for="Name"> USER NAME :</label>
+        <input type="text" name="name" id="NAME"><br>
+        <br>
+        <label for="email">Email : </label>
+        <input type="email" name="mail" id="email"><br>
+        <br>
+        <label for="number"> Number : </label>
+        <input type="number" name="no" id="number"><br>
+        <br>
+        <label for="DB">Date of Birth : </label>
+        <input type="date" name="" id="DB"><br>
+        <br>
+        <br>
+        <h4><b>GENDER</b></h4>
+        <label for="gender"> MALE</label>
+        <input type="radio" name="gender"  value="Male">
+        <label for="gender">FEMALE</label>
+        <input type="radio" name="gender" value="Female"><br>
+        <br>
+        <label for="study">QUALIFICATION : </label>
+        <select name="QUALIFICATION" id="study">
+            <option value="Btech">Btech</option>
+            <option value="MSC">MSC</option>
+            <option value="IT">IT</option>
+            <option value="DEGREE">DEGREE</option>
+
+        </select><br>
+        <br>
+        <label for="Special">SPECILIZATION : </label>
+        <input type="text" list="HI">
+        <datalist ID="HI">
+            <option value="CSE">CSE</option>
+            <option value="CIVIL">CIVIL</option>
+            <option value="ECE">ECE</option>
+            <option value="mech">mech</option>
+
+        </datalist><br>
+        <br>
+        <label for="passcode">Password : </label>
+        <input type="password" ><br>
+        <br>
+         <label for="passcode"> Confirm Password : </label>
+        <input type="password" ><br>
+        <br>
+        <input type="submit" value="submit" formaction="f4.html">
+        <input type="submit" value="Reset">
+        <input type="submit" value="Back" formaction="f1.html">
+
+
+        
+
+
+
+    </form>
+</body>
+</html>
